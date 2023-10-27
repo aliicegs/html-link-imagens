@@ -35,6 +35,9 @@ body{
 
 
 .header {
+    display: flex; 
+    text-align: center;
+    align-items: center; 
     background-color: rgb(42, 109, 109);
 }
 
@@ -43,8 +46,14 @@ body{
 }
 
 .header h1, h4 {
+    justify-content: center;
     margin: 0; 
     color: rgb(230, 230, 230)
+}
+
+.header a{
+    justify-content: center;
+    text-align: center;
 }
 
 .menu{
